@@ -42,14 +42,16 @@
 ;; 🗂️ Пути к файлам
 ;; ------------------------------
 
+(defvar my-config-base-dir (file-name-directory (or load-file-name (buffer-file-name)))
+  "Базовая директория для конфига.")
+
 (defvar my/inbox-task-file
-  (expand-file-name "../../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))
+  (expand-file-name "../../task-tracker/inbox_tasks.org" my-config-base-dir)
   "Основной файл, в который добавляются задачи.")
 
 (defvar my/tags-file
-  (expand-file-name "tags.org" (file-name-directory (expand-file-name "../../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))
-   "Файл с доступными тегами.")
-
+  (expand-file-name "../../task-tracker/tags.org" my-config-base-dir)
+  "Файл с доступными тегами.")
 
 ;; ------------------------------
 ;; 🔢 Шаг 1: Генерация уникального ID

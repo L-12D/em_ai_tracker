@@ -51,26 +51,28 @@
 ;; 📦 Бэкапы в отдельную папку, без попытки изменить ACL
 (setq backup-by-copying t) ;; <-- новая строка
 
-(make-directory (expand-file-name "../04_archive/backups" (file-name-directory load-file-name)) t)
+(make-directory (expand-file-name "../../04_archive/backups" (file-name-directory load-file-name)) t)
 (setq backup-directory-alist
-      `((".*" . ,(expand-file-name "../04_archive/backups" (file-name-directory load-file-name)))))
+      `((".*" . ,(expand-file-name "../../04_archive/backups" (file-name-directory load-file-name)))))
 
 
 ;; 📦 Автосейвы в отдельную папку, без попытки изменить ACL
-(make-directory (expand-file-name "../04_archive/autosaves" (file-name-directory load-file-name)) t)
+(make-directory (expand-file-name "../../04_archive/autosaves" (file-name-directory load-file-name)) t)
 (setq auto-save-file-name-transforms
-      `((".*" ,(expand-file-name "../04_archive/autosaves" (file-name-directory load-file-name)) t)))
+      `((".*" ,(expand-file-name "../../04_archive/autosaves" (file-name-directory load-file-name)) t)))
 
 ;; ------------------------------
 ;; 4. Обновление конфига без перезапуска
 ;; ------------------------------
-
+(defvar my-config-base-dir (file-name-directory (or load-file-name (buffer-file-name)))
+  "Базовая директория для конфига.")
 
 (defun simple/reload-config ()
   "Загружает init.el без перезапуска Emacs."
   (interactive)
-  (load-file (expand-file-name "init.el" (file-name-directory load-file-name)))
-  (message "✅ init.el обновлён."))
+  (let ((init-file (expand-file-name "../init.el" my-config-base-dir)))
+    (load-file init-file)
+    (message "✅ init.el обновлён: %s" init-file)))
 
 (global-set-key (kbd "C-c r") #'simple/reload-config)
 
@@ -89,10 +91,15 @@
 ;; ------------------------------
 ;; 6. Шорткат для открытия файла задач
 ;; ------------------------------
+
+(defvar my-config-base-dir (file-name-directory (or load-file-name (buffer-file-name)))
+  "Базовая директория для конфига.")
+
 (global-set-key (kbd "C-c t o") (lambda ()
                                   (interactive)
-                                  (let ((file-path (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name))))
+                                  (let ((file-path (expand-file-name "../../task-tracker/tasks.org" my-config-base-dir)))
                                     (find-file file-path))))
+
 
 ;; ------------------------------
 ;; 6.1 Шорткат для открытия файла inbox
@@ -100,8 +107,8 @@
 
 (global-set-key (kbd "C-c t i") (lambda ()
                                   (interactive)
-                                  (let ((file-path (expand-file-name "../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))
-                                    (find-file file-path)))) ;; открыть INBOX задачи
+                                  (let ((file-path (expand-file-name "../../task-tracker/inbox_tasks.org" my-config-base-dir)))
+                                    (find-file file-path))))
 
 
 ;; ------------------------------

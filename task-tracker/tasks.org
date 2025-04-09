@@ -4,7 +4,7 @@
 * Tasks
 
 
-* TODO [#A] Полный полный :planning:ai_tracker: 
+* TODO [#A] Полный полный :planning:ai_tracker:  
 DEADLINE: <2025-04-10 Чт> SCHEDULED: <2025-04-10 Чт>
 :PROPERTIES:
 :ID:       20250409-022532
