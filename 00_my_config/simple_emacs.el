@@ -69,7 +69,7 @@
 (defun simple/reload-config ()
   "Загружает init.el без перезапуска Emacs."
   (interactive)
-  (load-file "init.el")
+  (load-file (expand-file-name "init.el" (file-name-directory load-file-name)))
   (message "✅ init.el обновлён."))
 
 (global-set-key (kbd "C-c r") #'simple/reload-config)
@@ -94,8 +94,9 @@
   (interactive)
   (find-file (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name))))
   
-
-(global-set-key (kbd "C-c t o") #'simple/open-tasks-file)
+(global-set-key (kbd "C-c t o")
+                (lambda () (interactive)
+                  (find-file (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name)))))
 
 ;; ------------------------------
 ;; 6.1 Шорткат для открытия файла inbox
@@ -106,7 +107,9 @@
   (interactive)
   (find-file (expand-file-name "../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))
 
-(global-set-key (kbd "C-c t i") #'simple/open-inbox-file) ;; открыть INBOX задачи
+(global-set-key (kbd "C-c t i")
+                (lambda () (interactive)
+                  (find-file (expand-file-name "../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))) ;; открыть INBOX задачи
 
 ;; ------------------------------
 ;; 7. Умное поведение RET в чек-листах
