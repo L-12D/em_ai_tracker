@@ -39,9 +39,9 @@
 ;; 🧠 Модули задач (task manager)
 ;; ------------------------------
 
-(load-file "task-manager/task_manager-create_task.el")
-(load-file "task-manager/task_manager-organizing_tasks.el")
-(load-file "task-manager/task_manager-inbox_task.el")
+(load-file (expand-file-name "task-manager/task_manager-create_task.el" (file-name-directory load-file-name)))
+(load-file (expand-file-name "task-manager/task_manager-organizing_tasks.el" (file-name-directory load-file-name)))
+(load-file (expand-file-name "task-manager/task_manager-inbox_task.el" (file-name-directory load-file-name)))
 
 ;; ------------------------------
 ;; 📓 Личный дневник и общие настройки

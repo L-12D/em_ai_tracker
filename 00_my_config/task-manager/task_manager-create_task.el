@@ -43,7 +43,8 @@
 ;; ------------------------------
 
 (defvar my/inbox-task-file
-  "../../task-tracker/inbox_tasks.org"
+  (expand-file-name "../../task-tracker/inbox_tasks.org"
+                    (file-name-directory load-file-name))
   "Основной файл, в который добавляются задачи.")
 
 (defvar my/tags-file
