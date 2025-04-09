@@ -1,0 +1,884 @@
+* Tasks
+* INBOX ChatGPT умеет хорошо работать с 2Д :sociokraft:
+:PROPERTIES:
+:ID:       20250409-114449
+:END:
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#C] Создать фреймворк позволяющий любому пользователю представить цифровой профиль в сети с уровнями, интегрированный с другими образовательными платформами. Создающий как бы общий профиль обучения в пространстве public learning :сайтхасл:работа:
+:PROPERTIES:
+:ID:       20250409-111543
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Глобально это про мой собственный интерес так оформить портфолио и дать это делать другим
+
+* INBOX [#C] Научится кататься на разных типах пешеходного транспорта. Уницикл, ролики, сигвей, джолли джамперы 
+:PROPERTIES:
+:ID:       20250409-111318
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#C] Взять старую игру и сделать реверс инжеринг под современные движки :сайтхасл:геймдизайн:
+:PROPERTIES:
+:ID:       20250409-111233
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Я бы взял что-то роглайтое типа
+
+* INBOX [#B] Хочется прям вкатится в минимализм. Круто когда результатов можешь достичь через минимальное количество вещей :минимализм:продуктивность:
+:PROPERTIES:
+:ID:       20250409-111051
+:END:
+#+PRIORITY: B
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Позаниматся прыжками с парашутаА :спорт:
+:PROPERTIES:
+:ID:       20250409-110756
+:END:
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#C] Научится стрелять из лука и из пистолета 
+:PROPERTIES:
+:ID:       20250409-110644
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#C] Было бы круто отправится в школу созданную Брюсом Ли и потренироваться там (лайф) :спорт:
+:PROPERTIES:
+:ID:       20250409-110556
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#C] Разобрать что делать с прошлым телефоном 
+SCHEDULED: <2025-04-20 Пн>
+:PROPERTIES:
+:ID:       20250409-105245
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#C] Попробовать AI proctor 
+:PROPERTIES:
+:ID:       20250409-104657
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+- [ ] https://github.com/jam3scampbell/ProctorAI/
+
+* INBOX [#B] Перенести как-нибудь потом сюда все связанное с днями рождения и подготовкой :planning:
+SCHEDULED: <2025-04-20 Пн>
+:PROPERTIES:
+:ID:       20250409-104328
+:END:
+#+PRIORITY: B
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Дни рождения из timesttipe
+
+* INBOX [#A] Передать показания электричества, горячей и холодной воды :frog:государство_и_я:
+SCHEDULED: <2025-04-16 Ср ++1m>
+:PROPERTIES:
+:ID:       20250409-104140
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Горячая вода
+- [ ] Холодная вода
+- [ ] Электричество
+
+* INBOX [#B] Еженедельный random coffee :planning:отношение / нетворкинг:
+SCHEDULED: <2025-04-14 Пн ++1w>
+:PROPERTIES:
+:ID:       20250409-103702
+:END:
+#+PRIORITY: B
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Альфа-Банк Рандом
+- [ ] Легенды Контент Хиро Рандом
+- [ ] Russian hacker Random
+- [ ] hsbi?
+- [ ] Хотелось бы потенциально чего то более продуктового
+
+
+
+* INBOX [#A] Еженедельная покупка продуктов :planning:
+SCHEDULED: <2025-04-13 Пн ++1w>
+:PROPERTIES:
+:ID:       20250409-103041
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Зубные пасты и ополаскиватели
+
+* INBOX [#A] Распределить деньги :planning:финансы:
+ SCHEDULED: <2025-04-15 Вт ++2w>
+:PROPERTIES:
+:ID:       20250409-102746
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+- [ ] А повторяемость та исчезла
+
+* INBOX [#A] Накопить миллион рублей 
+:PROPERTIES:
+:ID:       20250409-102128
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#C] Покупать цветы раз в месяц 
+:PROPERTIES:
+:ID:       20250409-102059
+:END:
+#+PRIORITY: C
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#B] Оборудовать рабочее место и сделать классный сетап :продуктивность:
+:PROPERTIES:
+:ID:       20250409-101822
+:END:
+#+PRIORITY: B
+#+DESCRIPTION:
+#+LINKS:
+- [ ] https://t.me/Katerinalengold/2292
+
+* INBOX [#A] Добавляем 
+:PROPERTIES:
+:ID:       20250409-021742
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:* INBOX [#A] еще один :ai_tracker: 
+DEADLINE: <2025-04-10 Чт> SCHEDULED: <2025-04-10 Чт>
+:PROPERTIES:
+:ID:       20250409-022632
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+- [ ] тестовый
+
+* INBOX [#A] Новый полный тест 
+:PROPERTIES:
+:ID:       20250409-022517
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+
+е* INBOX  лалал 
+:PROPERTIES:
+:ID:       20250409022503
+:END:
+:PRIORITY: Б
+#+DESCRIPTION:
+#+LINKS:
+
+
+
+* INBOX а шедуль 
+:PROPERTIES:
+:ID:       20250409-013514
+:END:
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX [#A] приоритет 
+DEADLINE: <2025-04-09 Ср> SCHEDULED: <2025-04-09 Ср>
+:PROPERTIES:
+:ID:       20250409-013410
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX 
+:PROPERTIES:
+:ID:       20250409-012253
+:END:
+SCHEDULED: <2025-04-09>
+#+DESCRIPTION:
+#+LINKS:
+
+
+
+* INBOX Задача с правильным дедлайном 
+DEADLINE: <2025-04-10 Чт> SCHEDULED: <2025-04-10 Чт>
+DEADLINE: <2025-04-09>
+:PROPERTIES:
+:ID:       20250409-012128
+:END:
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Как же в emacs делается отмена, то ? 
+:PROPERTIES:
+:ID:       20250409-010256
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX отмена
+:PROPERTIES:
+:ID:       20250409-010239
+:END:
+SCHEDULED: <2025-04-09>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX 
+SCHEDULED: <2025-04-09 Ср>
+:PROPERTIES:
+:ID:       20250409-005901
+:END:
+SCHEDULED: <2025-04-09>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Кажется нужно иметь что-то типа проектов, отдельный dict, куда можно прикреплять к проектам что-то. Иной вопрос, когда их завершать :продуктивность:planning:ai_tracker:
+:PROPERTIES:
+:ID:       20250409-004748
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Неужели на эту тему нет адекватных решений?
+
+* INBOX Задачка тестовая  Г  
+SCHEDULED: <2025-04-09 Ср> DEADLINE: <2025-04-30 Ср>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Выслать мои любимые книги и фильмы к викторине :отношение / нетворкинг: 
+SCHEDULED: <2025-04-23 Ср> DEADLINE: <2025-04-22 Вт>
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Падать заявку в летнею школу Яндекса на тестировщика :работа:
+:PROPERTIES:
+:ID:       20250408-154144
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-23>
+DEADLINE: <2025-04-27>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX А ведь я достаточно часто испытываю разницу между тем, что думаю и что говорю :психолог:
+SCHEDULED: <2025-04-15 Вт> DEADLINE: <2025-04-08 Вт>
+:PROPERTIES:
+:ID:       20250408-151517
+:END:
+#+PRIORITY: D
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Есть странная привычка грызить ручки, как ее преодолеть? :frog:
+:PROPERTIES:
+:ID:       20250408-132925
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Стало интересно в контексте работы над йода таймером
+
+* INBOX Хочу сделать так, чтобы в моем инбокс наверху писали транзклюшены со всеми штуками, которые я использую для планирования :сайтхасл:ai_tracker:
+:PROPERTIES:
+:ID:       20250408-132755
+:END:
+#+PRIORITY: A
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Т.е все задачи по планируованию с описанием что нужно сделать
+- [ ] Кайдзен, чтобы можно соотносить цели с тем, что глобально я делаю
+
+* INBOX Раз в сто дней пересмотр постов :planning:продуктивность:глобальные привычки:блог:
+:PROPERTIES:
+:ID:       20250407-230837
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-06-07 ++4m>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] блог
+- [ ] глобальные привычки
+
+* INBOX Купить набор платков Г 
+SCHEDULED: <2025-04-15 Вт> DEADLINE: <2025-04-15 Вт>
+:PROPERTIES:
+:ID:       20250407-153032
+:END:
+SCHEDULED: <2025-04-15>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Встреча по рандом кофе В
+:PROPERTIES:
+:ID:       20250407-152717
+:END:
+SCHEDULED: <2025-04-07>
+#+DESCRIPTION:
+#+LINKS:
+
+
+
+* TODO Еженедельный разбор инбокса :planning:продуктивность:глобальные_привычки:
+SCHEDULED: <2025-04-13 Вс>
+:PROPERTIES:
+:ID:       20250406-225644
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-06 ++1w>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Просмотреть почту, удалить лишнее
+- [ ] Просмотреть все задачи в inbox
+- [ ] Разобрать коробку на столе (в идеальном мире)
+
+
+* TODO Ладно, похоже с этим я смогу разобраться только потом, пока инбокс 
+SCHEDULED: <2025-04-07 Пн>
+:PROPERTIES:
+:ID:       20250407-014320
+:END:
+#+PRIORITY: D
+#+DESCRIPTION:
+#+LINKS:
+
+* TODO Записаться к дермотологу и узнать про пятно на коже 8
+:PROPERTIES:
+:ID:       20250407-000748
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-15>
+DEADLINE: <2025-04-15>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] здоровье
+- [ ] frog
+
+* TODO для теста Г  
+SCHEDULED: <2025-04-06 Вс> DEADLINE: <2025-04-06 Вс> 
+:PROPERTIES:
+:ID:       20250406-230349
+:END:
+SCHEDULED: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* TODO Купить тонометр и градусник                                 :здоровье: 
+SCHEDULED: <2025-04-15 Вт>
+:PROPERTIES:
+:ID:       20250406-230229
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-15>
+DEADLINE: <2025-04-15>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Месячное планирование   :продуктивность:planning:глобальные_привычки:
+:PROPERTIES:
+:ID:       20250406-225926
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-06 ++1m>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Пока нереализовано полноценно
+- [ ] Планируется разделять недели на spring
+
+* TODO Еженедельный разбор инбокса :planning:продуктивность:глобальные_привычки:
+SCHEDULED: <2025-04-13 Вс>
+:PROPERTIES:
+:ID:       20250406-225644
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-06 ++1w>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Просмотреть почту, удалить лишнее
+- [ ] Просмотреть все задачи в inbox
+- [ ] Разобрать коробку на столе (в идеальном мире)
+
+* INBOX как прикреплять картинки вопрос 
+:PROPERTIES:
+:ID:       20250406-224916
+:END:
+#+PRIORITY: B
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Здесь сложно возвращатся и дополнять задачи, проще писать их. Я думаю, что буду отсюда нажимать комбинацию, которая делает их todo и добавляет в какой-то из проектов 
+:PROPERTIES:
+:ID:       20250406-224839
+:END:
+SCHEDULED: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* TODO Присоединится к сайтхасл                                    :сайтхасл: 
+SCHEDULED: <2025-05-15 Чт>
+:PROPERTIES:
+:ID:       20250406-224722
+:END:
+#+PRIORITY: B
+SCHEDULED: <2025-04-30 ++1m>
+DEADLINE: <2025-05-05>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Выплатить долг по Тинькофуу :финансы:
+:PROPERTIES:
+:ID:       20250406-224556
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-15>
+DEADLINE: <2025-04-19>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX сериал подросток глянуть :контент:
+:PROPERTIES:
+:ID:       20250406-224015
+:END:
+#+PRIORITY: D
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Руки чешутся занятся своим стилем, резко понял, что хочу выглядить как киберпанк офисный плантон :стиль:
+:PROPERTIES:
+:ID:       20250406-223814
+:END:
+#+DESCRIPTION:
+#+LINKS:
+- [ ] У беднортен многое классно к этому подходит
+
+* INBOX Написать пост о себе в книжном клубе :синглтон:
+:PROPERTIES:
+:ID:       20250406-223711
+:END:
+#+PRIORITY: B
+SCHEDULED: <2025-04-06>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Хочу занятся роупджампинг Г  :здоровье:спорт:
+:PROPERTIES:
+:ID:       20250406-223549
+:END:
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Развекрнуть у себя omnivore :селфхостет:
+:PROPERTIES:
+:ID:       20250406-223516
+:END:
+#+PRIORITY: B
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Развернуть у себя n8n 
+:PROPERTIES:
+:ID:       20250406-223425
+:END:
+#+PRIORITY: B
+#+DESCRIPTION:
+#+LINKS:
+
+е* INBOX Игра про Вавилон, интересно было бы попробовать :контент:
+:PROPERTIES:
+:ID:       20250406-223252
+:END:
+#+PRIORITY: D
+#+DESCRIPTION:
+#+LINKS:
+- [ ] https://t.me/denissexy/9890
+
+
+
+
+* INBOX Проект освобождение :отношение / нетворкинг:
+:PROPERTIES:
+:ID:       20250406-202659
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-07>
+DEADLINE: <2025-05-15>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Найти квартиру
+- [ ] Написать письмо
+- [ ] Обдумать речь
+
+* INBOX не изменилось 
+:PROPERTIES:
+:ID:       20250406-184244
+:END:
+#+PRIORITY: D
+SCHEDULED: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX а если шедуль есть 
+:PROPERTIES:
+:ID:       20250406-184159
+:END:
+SCHEDULED: <2025-04-06 ++>
+#+DESCRIPTION:
+#+LINKS:
+
+
+
+
+* INBOX Разобраться с тем как сделать дедлайн и шедуль более удобным способом :сайтхасл:ai_tracker:
+:PROPERTIES:
+:ID:       20250406-183909
+:END:
+#+PRIORITY: D
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Записаться к стомотологу и закончить лечение :здоровье:frog:
+:PROPERTIES:
+:ID:       20250406-183620
+:END:
+SCHEDULED: <2025-04-07 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX дедлайн 
+:PROPERTIES:
+:ID:       20250406-183440
+:END:
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX тайно 
+:PROPERTIES:
+:ID:       20250406-182928
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX фундаментальная дедлайн проблема 
+:PROPERTIES:
+:ID:       20250406-182722
+:END:
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX сделаем ляпу, но будем делать c c t v и уже на нем снимать лишние шедули и дедлайны 
+:PROPERTIES:
+:ID:       20250406-181852
+:END:
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX дедлайн 
+:PROPERTIES:
+:ID:       20250406-181805
+:END:
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+
+е* INBOX дедлайн  
+:PROPERTIES:
+:ID:       20250406-181630
+:END:
+SCHEDULED: <2025-04-06>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX дедлайн  
+:PROPERTIES:
+:ID:       20250406-181622
+:END:
+SCHEDULED: <2025-04-06>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX  
+:PROPERTIES:
+:ID:       20250406-181603
+:END:
+SCHEDULED: <2025-04-06>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX тест дедлайн 
+:PROPERTIES:
+:ID:       20250406-181553
+:END:
+SCHEDULED: <2025-04-06>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Текущая дата Г 
+:PROPERTIES:
+:ID:       20250406-180736
+:END:
+SCHEDULED: <2025-04-06>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Доделать подверждение ВНЖ, а то разрыв очка :государство_и_я:frog:
+:PROPERTIES:
+:ID:       20250406-180503
+:END:
+SCHEDULED: <2025-04-15 ++1y>
+DEADLINE: <2025-03-10 ++1y>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Чек-лист на будущее
+- [ ] Ксерокс ВНЖ
+- [ ] Ксерокс паспорта
+- [ ] Ксерокс перевода паспорта
+- [ ] НДФЛ со всех мест работы
+- [ ] Ксерокс прошлого подверждения
+
+
+
+* INBOX В вастрике клубе тоже можно дописать о себе Г  :блог:отношение / нетворкинг:
+:PROPERTIES:
+:ID:       20250406-175346
+:END:
+SCHEDULED: <2025-04-06>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+ 
+
+
+
+* INBOX хочу пройти что-то из курсов open AI 
+:PROPERTIES:
+:ID:       20250406-175241
+:END:
+#+PRIORITY: D
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] https://t.me/c/2238459167/3811
+
+* INBOX Скорее всего мне понадобится отдельная кнопка и для todo и для life, чтобы при переходе я разделял life по проектам  :продуктивность:ai_tracker:
+:PROPERTIES:
+:ID:       20250406-175153
+:END:
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+е* INBOX Я хочу, чтобы информация о задаче и ее выполнении по итогу складывалась в какой-то файл этой самой задачи, переходило в ее описание. Что по-моему может быть реально полезно :сайтхасл:самоактуализация:ai_tracker:
+:PROPERTIES:
+:ID:       20250406-174959
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Обновить информацию во всех моих Random Coffee, чтобы собеседникам было интереснее, с учетом нового поста о себе :отношение / нетворкинг:блог:
+:PROPERTIES:
+:ID:       20250406-174758
+:END:
+#+PRIORITY: A
+SCHEDULED: <2025-04-13 ++>
+DEADLINE: <2025-04-12>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Указать ссылку на новый пост
+
+* INBOX Еженедельная готовка еды :глобальные привычки:здоровье:
+:PROPERTIES:
+:ID:       20250406-174511
+:END:
+#+PRIORITY: B
+SCHEDULED: <2025-04-06 ++1w>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] приготовить фаршированный лук
+- [ ] может добавить его в регулярную еду
+
+* INBOX Списать время за всю неделю  :работа:
+:PROPERTIES:
+:ID:       20250406-174428
+:END:
+SCHEDULED: <2025-04-07 ++>
+DEADLINE: <2025-04-07>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Я могу интегрировать VVK в свой emacs, чтобы скидывать случайный текст по какому-то билду и получать из него таску :сайтхасл:ai_tracker:
+:PROPERTIES:
+:ID:       20250406-174303
+:END:
+#+PRIORITY: B
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] https://t.me/cmd_cv/3230 
+
+* INBOX Еженедельное чтение материалов mbsr A :frog:ежедневные привычки:осознанность:
+:PROPERTIES:
+:ID:       20250406-174105
+:END:
+SCHEDULED: <2025-04-06 ++1w>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Прочитать материалы 3 недели
+
+* INBOX Почитать как-нибудь и может создать чек-лист или типа того :продуктивность:
+:PROPERTIES:
+:ID:       20250406-173034
+:END:
+#+PRIORITY: D
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] https://t.me/Katerinalengold/2289
+
+* INBOX Написать запрос на менторство /  Давай продолжим с GPT разговор про послание :осознанность:
+:PROPERTIES:
+:ID:       20250406-172008
+:END:
+#+PRIORITY: C
+SCHEDULED: <2025-04-06 ++>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+- [ ] Мне кажется это интересно даже как концепция сюжета
+- [ ] Но и просто любопытно, что он будет отвечать воспринимая меня как посланика
+- [ ] А также это правда близко к моей целе, но почему я постоянно ловлю в мире иллюзорность того, что стал ближе к тому кем хочу стать и так каждый раз, каждый раз, каждый раз
+- [ ] Нейрофеноменолог, геймдизайнер-консультант, РО и писательский коуч. Вот приблизительный набор великого человека.
+- [ ] Надо бы написать запрос на менторство, это могло бы решить финансовые вопросы
+- [ ] 
+
+
+
+
+
+
+Временно:
+1. Перепроверить шорт-каты
+2. Возможно добавить сверху справочник шорт-катов
+3. Навигация вручную не совсем то
+4. Возможно будет удобнее группировать задачи в проекты и надо, 
+чтобы он в конце дня собирал их по проектам 
+5. Можно ли здесь все таки привязывать время? Оно потенциально тоже может пригодится 
+6. Скорее всего, так или иначе пригодится отдельное view, которое будет отвечать за сортировку 
+по месяцам, неделям и годам 
+7. Как управлять буферами все же? Придется для тегов тоже делать шорт-кат? 
+8. Может все таки понадобится добавить что-нибудь, что позволяет быстро к задаче припелить чек-лист
+9. Каждый раз, когда я добавляю задачу через нажатие  
+
+
+
+* INBOX Еее, работает, кайф 
+:PROPERTIES:
+:ID:       20250406-165126
+:END:
+SCHEDULED: <2025-04-06 ++1d>
+DEADLINE: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+* INBOX Проверка связи епт
+:PROPERTIES:
+:ID:       20250406-164553
+:END:
+SCHEDULED: <2025-04-06>
+#+DESCRIPTION:
+#+LINKS:
+
+
+
+
+
+
+*  TODO Начать прохождение геймдизайн курсов
+   SCHEDULED: <2025-04-04>
+   :PROPERTIES:
+   :ID:       5948c7af-1fbe-443b-8bb6-7705d05adfa1
+   :END:
+- [ ]  https://education.mit.edu/course/11-126x-introduction-to-game-design/#:~:text=An%20introduction%20to%20the%20basic,revise%20and%20improve%20overall%20gameplay
+- [ ]  https://gdcvault.com/
+
+
+* TODO День два таск трекер
+   SCHEDULED: <2025-04-04>
+   :PROPERTIES:
+   :ID:       6a82aa5d-29dd-45f0-b5d6-126033d131fa
+   :END:
+- [ ] Добавить шорт-кат переключащий мод org-transclition
+- [ ] Он как-то хреново сохраняет вообще в документах каких-то
+- [ ] Кажется я решаю несколько отдельных задач
+- [ ] Инструмент для удобного написая текста
+- [ ] Инструмент для трекинга
+- [ ] Инструмент для заметок
+- [ ] Инструмент для потенциального управления блогом и сайтами
+- [ ] Инструмент для управления чек-листами 
+- [ ] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
