@@ -89,27 +89,20 @@
 ;; ------------------------------
 ;; 6. Шорткат для открытия файла задач
 ;; ------------------------------
-(defun simple/open-tasks-file ()
-  "Открывает файл tasks.org."
-  (interactive)
-  (find-file (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name))))
-  
-(global-set-key (kbd "C-c t o")
-                (lambda () (interactive)
-                  (find-file (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name)))))
+(global-set-key (kbd "C-c t o") (lambda ()
+                                  (interactive)
+                                  (let ((file-path (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name))))
+                                    (find-file file-path))))
 
 ;; ------------------------------
 ;; 6.1 Шорткат для открытия файла inbox
 ;; ------------------------------
 
-(defun simple/open-inbox-file ()
-  "Открывает файл inbox_tasks.org."
-  (interactive)
-  (find-file (expand-file-name "../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))
+(global-set-key (kbd "C-c t i") (lambda ()
+                                  (interactive)
+                                  (let ((file-path (expand-file-name "../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))
+                                    (find-file file-path)))) ;; открыть INBOX задачи
 
-(global-set-key (kbd "C-c t i")
-                (lambda () (interactive)
-                  (find-file (expand-file-name "../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))) ;; открыть INBOX задачи
 
 ;; ------------------------------
 ;; 7. Умное поведение RET в чек-листах
