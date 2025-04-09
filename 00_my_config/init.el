@@ -47,8 +47,8 @@
 ;; 📓 Личный дневник и общие настройки
 ;; ------------------------------
 
-(load "journal-manager")
-(load "simple_emacs")
+(load (expand-file-name "journal-manager.el" (file-name-directory load-file-name)))
+(load (expand-file-name "simple_emacs.el" (file-name-directory load-file-name)))
 
 ;; ------------------------------
 ;; 💾 Настройки, созданные через M-x customize
