@@ -43,7 +43,7 @@
 ;; ------------------------------
 
 (defvar my/inbox-task-file
-  "E:/YandexDisk/2 area/10 Emacs/New managment emacs/task-tracker/inbox_tasks.org"
+  "../../task-tracker/inbox_tasks.org"
   "Основной файл, в который добавляются задачи.")
 
 (defvar my/tags-file

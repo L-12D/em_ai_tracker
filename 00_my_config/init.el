@@ -4,7 +4,7 @@
 ;; 📁 Пути
 ;; ------------------------------
 
-(add-to-list 'load-path "E:/YandexDisk/2 area/10 Emacs/New managment emacs/My config/")
+(add-to-list 'load-path "./")
 
 ;; ------------------------------
 ;; 📦 Установка и настройка use-package
@@ -39,9 +39,9 @@
 ;; 🧠 Модули задач (task manager)
 ;; ------------------------------
 
-(load-file "E:/YandexDisk/2 area/10 Emacs/New managment emacs/My config/task-manager/task_manager-create_task.el")
-(load-file "E:/YandexDisk/2 area/10 Emacs/New managment emacs/My config/task-manager/task_manager-organizing_tasks.el")
-(load-file "E:/YandexDisk/2 area/10 Emacs/New managment emacs/My config/task-manager/task_manager-inbox_task.el")
+(load-file "task-manager/task_manager-create_task.el")
+(load-file "task-manager/task_manager-organizing_tasks.el")
+(load-file "task-manager/task_manager-inbox_task.el")
 
 ;; ------------------------------
 ;; 📓 Личный дневник и общие настройки
@@ -54,7 +54,7 @@
 ;; 💾 Настройки, созданные через M-x customize
 ;; ------------------------------
 
-(setq custom-file "E:/YandexDisk/2 area/10 Emacs/New managment emacs/My config/custom.el")
+(setq custom-file "custom.el")
 (load custom-file 'noerror)
 
 ;; ------------------------------
@@ -62,10 +62,9 @@
 ;; ------------------------------
 
 (setq org-agenda-files
-      (append
-       '("E:/YandexDisk/2 area/10 Emacs/New managment emacs/My config/tasks.org")
-       (directory-files-recursively
-        "E:/YandexDisk/2 area/10 Emacs/New managment emacs/journal/" "\\.org$")))
+      (list
+       "../task-tracker/tasks.org"))
+(setq org-agenda-files (append org-agenda-files (directory-files-recursively "../03_journal/" "\\.org$")))
 
 ;; ------------------------------
 ;; 📦 Пакеты (если используешь use-package)

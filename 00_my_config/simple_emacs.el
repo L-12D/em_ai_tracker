@@ -51,15 +51,15 @@
 ;; 📦 Бэкапы в отдельную папку, без попытки изменить ACL
 (setq backup-by-copying t) ;; <-- новая строка
 
-(make-directory "E:/YandexDisk/2 area/10 Emacs/New managment emacs/archive/backups" t)
+(make-directory "../04_archive/backups" t)
 (setq backup-directory-alist
-      '((".*" . "E:/YandexDisk/2 area/10 Emacs/New managment emacs/archive/backups")))
+      '((".*" . "../04_archive/backups")))
 
 
 ;; 📦 Автосейвы в отдельную папку, без попытки изменить ACL
-(make-directory "E:/YandexDisk/2 area/10 Emacs/New managment emacs/archive/autosaves" t)
+(make-directory "../04_archive/autosaves" t)
 (setq auto-save-file-name-transforms
-      '((".*" "E:/YandexDisk/2 area/10 Emacs/New managment emacs/archive/autosaves" t)))
+      '((".*" "../04_archive/autosaves" t)))
 
 ;; ------------------------------
 ;; 4. Обновление конфига без перезапуска
@@ -67,7 +67,7 @@
 (defun simple/reload-config ()
   "Загружает init.el без перезапуска Emacs."
   (interactive)
-  (load-file "C:/Users/yefim/AppData/Roaming/.emacs.d/init.el")
+  (load-file "init.el")
   (message "✅ init.el обновлён."))
 
 (global-set-key (kbd "C-c r") #'simple/reload-config)
@@ -90,7 +90,7 @@
 (defun simple/open-tasks-file ()
   "Открывает файл tasks.org."
   (interactive)
-  (find-file "E:/YandexDisk/2 area/10 Emacs/New managment emacs/task-tracker/tasks.org"))
+  (find-file "../task-tracker/tasks.org"))
   
 
 (global-set-key (kbd "C-c t o") #'simple/open-tasks-file)
@@ -102,7 +102,7 @@
 (defun simple/open-inbox-file ()
   "Открывает файл inbox_tasks.org."
   (interactive)
-  (find-file "E:/YandexDisk/2 area/10 Emacs/New managment emacs/task-tracker/inbox_tasks.org"))
+  (find-file "../task-tracker/inbox_tasks.org"))
 
 (global-set-key (kbd "C-c t i") #'simple/open-inbox-file) ;; открыть INBOX задачи
 

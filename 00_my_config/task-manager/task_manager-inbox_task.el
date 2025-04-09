@@ -13,7 +13,7 @@
 ;; ------------------------------
 
 (defconst my/tasks-file
-  "E:\\YandexDisk\\2 area\\10 Emacs\\New managment emacs\\task-tracker\\tasks.org"
+  "../../task-tracker/tasks.org"
   "Путь к файлу tasks.org для задач в статусе TODO.")
 
 ;; ------------------------------
