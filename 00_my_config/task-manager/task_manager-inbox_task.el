@@ -13,7 +13,7 @@
 ;; ------------------------------
 
 (defconst my/tasks-file
-  "../../task-tracker/tasks.org"
+  (expand-file-name "../../task-tracker/tasks.org" (file-name-directory load-file-name))
   "Путь к файлу tasks.org для задач в статусе TODO.")
 
 ;; ------------------------------

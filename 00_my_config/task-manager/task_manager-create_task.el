@@ -43,13 +43,13 @@
 ;; ------------------------------
 
 (defvar my/inbox-task-file
-  (expand-file-name "../../task-tracker/inbox_tasks.org"
-                    (file-name-directory load-file-name))
+  (expand-file-name "../../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))
   "Основной файл, в который добавляются задачи.")
 
 (defvar my/tags-file
-  (expand-file-name "tags.org" (file-name-directory my/inbox-task-file))
-  "Файл с доступными тегами.")
+  (expand-file-name "tags.org" (file-name-directory (expand-file-name "../../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))
+   "Файл с доступными тегами.")
+
 
 ;; ------------------------------
 ;; 🔢 Шаг 1: Генерация уникального ID
@@ -66,14 +66,15 @@
 (defun my/read-tags-from-file ()
   "Прочитать список тегов из файла `tags.org`."
   (when (file-exists-p my/tags-file)
-    (with-temp-buffer
-      (insert-file-contents my/tags-file)
-      (let ((tags '()))
-        (org-mode)
-        (org-map-entries
-         (lambda ()
-           (push (org-get-heading t t t t) tags)))
-        (reverse tags)))))
+        (with-temp-buffer
+          (insert-file-contents my/tags-file)
+          (let ((tags '()))
+            (org-mode)
+            (org-map-entries
+             (lambda ()
+               (push (org-get-heading t t t t) tags)))
+            (reverse tags)))))
+
 
 (defun my/add-tag-to-file (tag)
   "Добавить TAG в файл `tags.org`, если его ещё нет."

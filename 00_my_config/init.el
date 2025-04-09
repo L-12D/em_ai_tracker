@@ -55,16 +55,15 @@
 ;; ------------------------------
 
 (setq custom-file "custom.el")
-(load custom-file 'noerror)
+(load (expand-file-name custom-file (file-name-directory load-file-name)) 'noerror)
 
 ;; ------------------------------
 ;; 📅 Файлы для org-agenda
 ;; ------------------------------
 
 (setq org-agenda-files
-      (list
-       "../task-tracker/tasks.org"))
-(setq org-agenda-files (append org-agenda-files (directory-files-recursively "../03_journal/" "\\.org$")))
+      (list (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name))))
+(setq org-agenda-files (append org-agenda-files (directory-files-recursively (expand-file-name "../03_journal/" (file-name-directory load-file-name)) "\\.org$")))
 
 ;; ------------------------------
 ;; 📦 Пакеты (если используешь use-package)

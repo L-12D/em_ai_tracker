@@ -51,19 +51,21 @@
 ;; 📦 Бэкапы в отдельную папку, без попытки изменить ACL
 (setq backup-by-copying t) ;; <-- новая строка
 
-(make-directory "../04_archive/backups" t)
+(make-directory (expand-file-name "../04_archive/backups" (file-name-directory load-file-name)) t)
 (setq backup-directory-alist
-      '((".*" . "../04_archive/backups")))
+      `((".*" . ,(expand-file-name "../04_archive/backups" (file-name-directory load-file-name)))))
 
 
 ;; 📦 Автосейвы в отдельную папку, без попытки изменить ACL
-(make-directory "../04_archive/autosaves" t)
+(make-directory (expand-file-name "../04_archive/autosaves" (file-name-directory load-file-name)) t)
 (setq auto-save-file-name-transforms
-      '((".*" "../04_archive/autosaves" t)))
+      `((".*" ,(expand-file-name "../04_archive/autosaves" (file-name-directory load-file-name)) t)))
 
 ;; ------------------------------
 ;; 4. Обновление конфига без перезапуска
 ;; ------------------------------
+
+
 (defun simple/reload-config ()
   "Загружает init.el без перезапуска Emacs."
   (interactive)
@@ -90,7 +92,7 @@
 (defun simple/open-tasks-file ()
   "Открывает файл tasks.org."
   (interactive)
-  (find-file "../task-tracker/tasks.org"))
+  (find-file (expand-file-name "../task-tracker/tasks.org" (file-name-directory load-file-name))))
   
 
 (global-set-key (kbd "C-c t o") #'simple/open-tasks-file)
@@ -102,7 +104,7 @@
 (defun simple/open-inbox-file ()
   "Открывает файл inbox_tasks.org."
   (interactive)
-  (find-file "../task-tracker/inbox_tasks.org"))
+  (find-file (expand-file-name "../task-tracker/inbox_tasks.org" (file-name-directory load-file-name))))
 
 (global-set-key (kbd "C-c t i") #'simple/open-inbox-file) ;; открыть INBOX задачи
 
